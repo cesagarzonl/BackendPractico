@@ -2,20 +2,20 @@
 //stubs
 const test = require('ava')
 //se divide en 3 pasos 
-const Producto = require('../producto/Producto')
-
-
 
 
 //setup
-/*test.beforeEach(async () => {
-    
-
-})*/
+const Producto = require('../producto/Producto')
 //exec
-
-//assert
 test('Producto',t =>{
     t.truthy(Producto,"Existe el modelo")
     //t.pass()
+})
+//assert
+
+test.serial('Setup',t =>{
+    const productoModel = new Producto('Name', 'Manufacturer','SKU','GetContent');
+    t.truthy(productoModel,'Se crea producto correctamente')
+    t.deepEqual(productoModel.nombreyManufacturer(),'Name Manufacturer','Funcion suma texto')
+
 })
