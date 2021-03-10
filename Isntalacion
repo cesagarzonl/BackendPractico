@@ -5,3 +5,18 @@ validar version:
 /home/vortex/.deno/bin/deno run https://deno.land/std/examples/welcome.ts
 
 /home/vortex/.deno/bin/deno run https://deno.land/std/examples/welcome.ts
+
+
+
+
+////que se debe hacer  ? 
+Diseño de entidad de review
+db no relacional (mongo)
+retorne de la solicitud get 
+Recomendaciones 
+    - Tener el diseño de las entidades  para poder satisfacer el review con el cliente
+    -Arquitectura, 
+        - servicios 
+        - No SQL fuente.
+    - Millones de usuario escalable.
+    - Api servicio de lectura =>  states less =  no se almace nada en en las vm 
