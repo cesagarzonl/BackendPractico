@@ -1,5 +1,5 @@
-const Camera = require('./producto/Camera')
-const Lens = require('./producto/Lens')
+const Camera = require('./Models/Camera')
+const Lens = require('./Models/Lens')
 const CameraReviw = require('./Review/CameraReview')
 
 let feture = {Name:'feature',description:'Descripcion'}

@@ -5,7 +5,7 @@ const test = require('ava')
 
 
 //setup
-const Camera = require('../producto/Camera')
+const Camera = require('../Models/Camera')
 const CameraReviw = require('../Review/CameraReview')
 //exec
 test('Camera',t =>{

@@ -5,7 +5,7 @@ const test = require('ava')
 
 
 //setup
-const Producto = require('../producto/Producto')
+const Producto = require('../Models/Producto')
 //exec
 test('Producto',t =>{
     t.truthy(Producto,"Existe el modelo")
