@@ -1,0 +1,11 @@
+{
+  "name": "producto",
+  "version": "1.0.0",
+  "description": "proceso de estudio relacion de eventos y modelos de datos avanzado",
+  "main": "Camera.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

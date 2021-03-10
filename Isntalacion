@@ -1,0 +1,7 @@
+curl -fsSL https://deno.land/x/install/install.sh | sh
+validar version: 
+/home/vortex/.deno/bin/deno -V
+
+/home/vortex/.deno/bin/deno run https://deno.land/std/examples/welcome.ts
+
+/home/vortex/.deno/bin/deno run https://deno.land/std/examples/welcome.ts
