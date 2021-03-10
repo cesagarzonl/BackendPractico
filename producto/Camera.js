@@ -12,6 +12,16 @@ class Camera extends Producto {
     this.CropFactor = CropFactor;
     this.Feature = new Feature(feateure.Name,feateure.description)
   }
+
+  get area() {
+    return this.getNombre();
+  }
+  // Método
+  getNombre () {
+    return "El tipo es "+this.Type;
+  }
+
+
 }
 
 

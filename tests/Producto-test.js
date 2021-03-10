@@ -19,3 +19,5 @@ test.serial('Setup',t =>{
     t.deepEqual(productoModel.nombreyManufacturer(),'Name Manufacturer','Funcion suma texto')
 
 })
+
+module.exports = {test}

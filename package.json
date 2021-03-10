@@ -12,9 +12,9 @@
     "proxyquire": "^2.1.3"
   },
   "scripts": {
-    "test": "ava tests/Producto-test.js --verbose",
-    "testnyc": "nyc ava tests/Producto-test.js --verbose"
+    "test": "ava tests/test.js --verbose",
+    "testnyc": "nyc npm run test"
   },
-  "author": "",
+  "author": "Cesar Garzon",
   "license": "ISC"
 }
